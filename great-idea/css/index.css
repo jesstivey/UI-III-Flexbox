@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -72,6 +70,8 @@ h1, h2, h3, h4, h5 {
 body {
 	padding: 50px;
 	font-family: "bellota text";
+	width: 880px;
+	margin: 0 auto;
 }
 
 /* divs */
@@ -94,7 +94,7 @@ header div {
 footer {
 	text-align: center;
 	padding: 50px 0 100px 0;
-	font-family: "bellota text"
+	font-family: "bellota text";
 }
 
 /* classes */
@@ -129,27 +129,27 @@ footer {
 
 .bottom {
 	display: flex;
-	justify-content: space-evenly;
-}
-
-.bottom div {
-	width: 350px;
-	padding: 20px;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .services {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-evenly;
 }
 
 .service {
 	display: flex;
 	flex-wrap: wrap;
-	width: 25%;
+	width: 350px;
 	border: 1px solid black;
 	background: whitesmoke;
 	padding: 25px;
+	align-content: space-evenly;
+	margin-bottom: 20px;
 }
 
 .service button {
@@ -166,8 +166,11 @@ h1 {
 }
 
 h2 {
-	font-family: "Playfair Display";
 	padding: 5px;
+}
+
+h4 {
+	font-size: 30px;
 }
 
 button {
@@ -186,5 +189,5 @@ a {
 hr {
 	border: 1px solid;
 	width: 90%;
-	margin-bottom: 25px;
+	margin: 25px 0;
 }
