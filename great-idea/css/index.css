@@ -93,7 +93,7 @@ header div {
 
 footer {
 	text-align: center;
-	padding-bottom: 150px;
+	padding: 50px 0 100px 0;
 	font-family: "bellota text"
 }
 
@@ -120,7 +120,7 @@ footer {
 }
 
 .contact {
-	padding: 50px;
+	padding-left: 50px;
 }
 
 .bottom {
@@ -129,7 +129,7 @@ footer {
 }
 
 .bottom div {
-	width: 30%;
+	width: 350px;
 	padding: 20px;
 }
 
@@ -162,4 +162,5 @@ a {
 hr {
 	border: 1px solid;
 	width: 90%;
+	margin-bottom: 25px;
 }
