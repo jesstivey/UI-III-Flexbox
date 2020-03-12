@@ -116,6 +116,10 @@ footer {
 	justify-content: center;
 }
 
+.contact-header-img {
+	width: 100%;
+}
+
 .image {
 	width: 100%;
 	display: flex;
