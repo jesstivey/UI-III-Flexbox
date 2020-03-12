@@ -123,10 +123,6 @@ footer {
 	padding: 25px;
 }
 
-.contact {
-	padding-left: 50px;
-}
-
 .bottom {
 	display: flex;
 	align-items: center;
@@ -137,8 +133,6 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
-	align-content: space-evenly;
 }
 
 .service {
@@ -148,13 +142,16 @@ footer {
 	border: 1px solid black;
 	background: whitesmoke;
 	padding: 25px;
-	align-content: space-evenly;
 	margin-bottom: 20px;
 }
 
 .service button {
 	border-radius: 5px;
 	margin-top: 20px;
+}
+
+.contact {
+	padding-left: 50px;
 }
 
 /* headers, button, links, hr */
