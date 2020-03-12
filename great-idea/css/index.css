@@ -72,8 +72,15 @@ body {
 
 /* divs */
 
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 header {
+	display: flex;
 	width: 100%;
+	justify-content: center;
 }
 
 header div {
@@ -90,11 +97,6 @@ footer {
 }
 
 /* classes */
-
-.navigation {
-	width: 100%;
-	font-family: "bellota text"
-}
 
 .logo {
 
