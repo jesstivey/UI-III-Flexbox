@@ -73,17 +73,14 @@ body {
 /* divs */
 
 header {
-	margin: 0 auto;
 	width: 100%;
 }
 
 header div {
-	display: inline-block;
 	padding: 100px;
 }
 
 header img {
-	display: inline-block;
 }
 
 footer {
@@ -95,18 +92,15 @@ footer {
 /* classes */
 
 .navigation {
-	display: inline-block;
 	width: 100%;
 	font-family: "bellota text"
 }
 
 .logo {
-	display: inline-block;
-	margin-left: 250px;
+
 }
 
 .top div {
-	display: inline-block;
 	width: 45%;
 	padding: 50px;
 }
@@ -117,7 +111,6 @@ footer {
 }
 
 .middle-img {
-	margin: 0 auto;
 }
 
 .contact {
@@ -125,7 +118,6 @@ footer {
 }
 
 .bottom div {
-	display: inline-block;
 	width: 30%;
 	padding: 20px;
 }
@@ -153,9 +145,7 @@ button {
 a {
 	text-decoration: none;
 	color: lightgray;
-	margin: 40px;
 	padding: .5%;
-	display: inline-block;
 }
 
 hr {
