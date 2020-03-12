@@ -112,6 +112,10 @@ footer {
 	padding-left: 100px;
 }
 
+.services-header-img {
+	justify-content: center;
+}
+
 .image {
 	width: 100%;
 	display: flex;
@@ -131,6 +135,26 @@ footer {
 .bottom div {
 	width: 350px;
 	padding: 20px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.service {
+	display: flex;
+	flex-wrap: wrap;
+	width: 25%;
+	border: 1px solid black;
+	background: whitesmoke;
+	padding: 25px;
+}
+
+.service button {
+	border-radius: 5px;
+	margin-top: 20px;
 }
 
 /* headers, button, links, hr */
